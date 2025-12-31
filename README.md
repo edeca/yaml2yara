@@ -1,10 +1,10 @@
 # Introduction
 
-Released as open source by NCC Group Plc - http://www.nccgroup.com/
+Developed by David Cannings (@edeca) <david@edeca.net>
 
-Developed by David Cannings (@edeca) <david.cannings@nccgroup.com>
+Originally released as open source by NCC Group Plc - http://www.nccgroup.com/
 
-http://www.github.com/nccgroup/yaml2yara
+http://www.github.com/edeca/yaml2yara - this fork has been updated from the original code.
 
 This project is released under the AGPL license.  Please see LICENSE for more information.
 
@@ -20,7 +20,7 @@ It is used to automatically generate the same rule for multiple pieces of input 
 
 This decouples the rule logic and data to match, meaning that bulk rules can be updated easily to optimise them or take advantage of new YARA features.
 
-It was initially designed to generate Yara rules.  However this could easily be expanded to any other format (MAEC, Suricata rules) with new templates.
+It was initially designed to generate YARA rules.  However this could easily be expanded to any other format (MAEC, Suricata rules) with new templates.
 
 # Aims
 
